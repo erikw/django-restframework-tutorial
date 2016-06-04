@@ -124,3 +124,7 @@ STATIC_URL = '/static/'
 
 # Don't render errors in HTML.
 DEBUG_PROPAGATE_EXCEPTIONS = False
+
+REST_FRAMEWORK = {
+        'PAGE_SIZE': 5
+        }
